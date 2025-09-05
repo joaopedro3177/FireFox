@@ -18,12 +18,16 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/edtEmail"
+        app:startIconDrawable="@drawable/baseline_email"
+        app:endIconMode="clear_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Insira seu e-mail">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
             android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -32,11 +36,28 @@
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/baseline_lock"
+        app:endIconMode="password_toggle"
         android:hint="Insira sua Senha">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:maxLength="20"
             android:layout_height="wrap_content" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEntrar"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            app:cornerRadius="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BC421D"
+            android:text="Entrar"
+
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
 
