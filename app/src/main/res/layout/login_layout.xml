@@ -5,8 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_margin="20dp"
+    android:orientation="vertical"
     tools:context=".LoginActivity">
 
 
@@ -16,15 +16,24 @@
         android:layout_height="150dp"
         android:src="@drawable/firefox" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
-        />
+        android:hint="Insira seu e-mail">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtSenha"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:hint="Insira sua Senha">
+
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
