@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -53,38 +54,19 @@
             android:maxLength="20" />
 
 
-        <TextView
-            android:id="@+id/txtCadastro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:layout_marginTop="5dp"
-            android:text="Perdeu sua senha? Clique aqui" />
-
-
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnEntrar"
+            android:id="@+id/btnCadastrar"
             style="Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#BC421D"
             android:padding="10dp"
-            android:text="Entrar"
+            android:text="Cadastrar"
             android:textAllCaps="true"
             android:textSize="16sp"
             app:cornerRadius="15dp" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnCadastro"
-            style="Button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#BC421D"
-            android:padding="10dp"
-            android:text="Cadastro"
-            android:textAllCaps="true"
-            android:textSize="16sp"
-            app:cornerRadius="15dp" />
+
 
     </com.google.android.material.textfield.TextInputLayout>
 
