@@ -10,7 +10,7 @@
 
 
     <ImageView
-        android:id="@+id/ImgSeta"
+        android:id="@+id/ImgVoltar"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="#2c2c2c" />
