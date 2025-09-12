@@ -51,17 +51,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="Insira sua Senha"
+        android:hint="Insira sua nova Senha"
         app:endIconMode="password_toggle"
         app:startIconDrawable="@drawable/baseline_lock">
 
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:maxLength="20" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/edtNovaSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="Insira sua nova Senha"
+        android:hint="Insira sua senha novamente"
         app:endIconMode="password_toggle"
         app:startIconDrawable="@drawable/baseline_lock">
 
@@ -70,10 +79,6 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:maxLength="20" />
-
-
-
-
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnRecuperar"
