@@ -13,7 +13,8 @@
         android:id="@+id/ImgVoltar"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="#2c2c2c" />
+        android:src="@drawable/firefox"
+        android:layout_gravity="center_horizontal"/>
 
     <TextView
         android:layout_width="wrap_content"
